@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Inputs</title>
+</head>
+
+<body>
+  <h3>VARIOUS INPUTS</h3>
+  <input type="text"><br>
+  <input type="submit"><br>
+  <input type="file"><br>
+  <input type="date"><br>
+  <input type="radio"><br>
+  <input type="range"><br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <label for="name">Name (4 to 8 characters):</label>
+  <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10"><br>
+
+  <input type="submit" value="Send Request"><br>
+
+  <label for="avatar">Choose a profile picture:</label>
+  <input type="file" id="avatar" name="avatar" <br>
+  <br>
+  <label for="meeting-time">Choose a time for your appointment:</label>
+  <input type="datetime-local" id="meeting-time" name="meeting-time" value="2018-06-12T19:30" min="2018-06-07T00:00" max="2018-06-14T00:00"><br>
+
+  <p>Select a maintenance person:</p>
+
+  <div>
+    <input type="radio" id="huey" name="drone" value="huey" checked>
+    <label for="huey">Huey</label>
+  </div>
+
+  <div>
+    <input type="radio" id="dewey" name="drone" value="dewey">
+    <label for="dewey">Dewey</label>
+  </div>
+
+  <div>
+    <input type="radio" id="louie" name="drone" value="louie">
+    <label for="louie">Louie</label>
+  </div><br>
+
+  <p>Audio settings:</p>
+
+  <div>
+    <input type="range" id="volume" name="volume" min="0" max="11">
+    <label for="volume">Volume</label>
+  </div>
+
+  <div>
+    <input type="range" id="cowbell" name="cowbell" min="0" max="100" value="90" step="10">
+    <label for="cowbell">Cowbell</label>
+  </div><br>
+  <form class="" action="index.html" method="post">
+    <label for="">Your Name:</label>
+    <input type="text" name="" value="">
+    <input type="color" name="" value=""><br>
+
+    <label>Do you want to sign up for our newsletter</label>
+    <input type="checkbox" name="" value=""><br>
+
+    <label>Password</label>
+    <input type="Password" name="" value="">
+    <input type="submit" name=""><br>
+
+    <label for="site-search">Search it:</label>
+    <input type="search" id="site-search" name="q" aria-label="Search through site content">
+    <button>Search</button><br>
+
+    <label for="">Name please:</label>
+    <input type="text" name="" value="">
+    <input type="submit" name=""><br>
+
+    <input class="favorite styled" type="button" value="Add to Your favorites"><br>
+
+    <p>Sign in to your account:</p>
+
+    <div>
+      <label for="userId">User ID</label>
+      <input type="text" id="userId" name="userId">
+    </div>
+
+    <div class="preference">
+      <label for="cheese">Do you like cheese?</label>
+      <input type="checkbox" name="cheese" id="cheese">
+    </div>
+
+    <div class="preference">
+      <label for="peas">Do you like peas?</label>
+      <input type="checkbox" name="peas" id="peas">
+    </div><br>
+
+    <label for="avatar">Choose a profile picture:</label><br>
+    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg, web/html">
+    <input type="color" value="#2416E9">
+    <input type="color" value="#ff0000">
+    <input type="color" value="#f4f664">
+
+  </form>
+
+
+</body>
+
+</html>
